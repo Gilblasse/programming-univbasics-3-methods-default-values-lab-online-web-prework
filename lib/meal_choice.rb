@@ -4,6 +4,6 @@ def meal_choice (veg1,veg2,protein="meat")
    return order_message
 end
 
-meal_choice("broccoli","carrots","steak")
+puts meal_choice("broccoli","carrots","steak")
 
 
