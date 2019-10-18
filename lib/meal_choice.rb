@@ -5,7 +5,7 @@ def meal_choice (veg1,veg2,protein="meat")
    puts nutritious_meal_message
    puts order_message
    
-   return "#{order_message}"
+   return order_message
 end
 
 meal_choice("broccoli","carrots","steak")
